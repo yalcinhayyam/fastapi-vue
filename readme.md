@@ -13,20 +13,16 @@
     
 
 
-    ## Env başlatıp server açma kapama
     $ pipenv --rm
     $ pipenv install
 
     $ server-env/Scripts/activate
     $ uvicorn main:app --reload
     $ deactivate
-
 ```
 
+``` bash
+    $ cd client && npm i
+    $ npm run dev 
 
-``` py
-
-
-
-```
-
+``` 
